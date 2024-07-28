@@ -1,0 +1,798 @@
+.all {
+    padding: 0;
+    margin: 0;
+}
+.reviewBackground {
+    border-radius: 0 !important;
+    height: 17rem !important;
+}
+.card {
+    /* width: 95%; */
+    width: 93%;
+    border-radius: 5px;
+    margin: 1% 0 2% 5%;
+    box-shadow: 0 0 3px 0 lightgray;
+}
+.fixedButtonContainer{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* width: 100%; */
+    z-index: 999;
+}
+.card-fare {
+    /* width: 75%; */
+    width: 70%;
+    border-radius: 5px;
+    margin: 1.58% 5%;
+    box-shadow: 0 0 3px 0 lightgray;
+}
+.flight-main-class{
+    padding: 0% 0% 0% 3%;
+}
+.input-email {
+    display: flex;
+    /* padding-bottom: 2%; */
+    justify-content: left;
+}
+.email {
+    padding: 0% 0% 0% 4%;
+    margin: 0;
+}
+.arrew {
+    display: contents;
+    align-items: center;
+    position: relative;
+}
+.dashed-hr {
+    border: 1px dashed gray;
+    width: 45%;
+    margin: 10px 0;
+}
+.bold-text {
+    white-space: nowrap;
+    font-weight: bold;
+    margin: 0 1%;
+}
+.arrow-start {
+    width: 2%;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(176, 176, 176);
+    margin-left: 3%;
+}
+.arrow-end {
+    border-style: solid;
+    border-color: transparent transparent transparent rgb(176, 176, 176);
+    border-width: 7px 0px 7px 11px;
+    padding-right: 3%;
+}
+.backHeading1 {
+    color: white;
+    font-weight: var( --third-fontWeight);
+    padding: 2% 6%;
+    position: relative;
+    z-index: 1;
+}
+.checkbox{
+    margin-top: 1%;
+    font-size: var(--secondary-font);
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all-padding{
+    padding: 3% 0%;
+}
+.date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inbox {
+    padding-top: 2%;
+    align-items: baseline;
+}
+.flight {
+    font-weight: var( --primary-fontWeight);
+    color: #777;
+    font-size: var(--primary-font);
+}
+.colored-p {
+    background-color: lightblue;
+    padding: 1%;
+    margin-top: 1%;
+    border-radius: 5px;
+    font-size: var(--third-font);
+}
+.colored-v {
+    font-weight: 'bold';
+    font-size: 28px;
+}
+.spanPara{
+    color: rgb(113, 113, 113);
+    font-weight: var(--primary-fontWeight);
+    font-size: 13px;
+}
+.terminal{
+    font-size: var(--third-font);
+    color: rgb(0, 162, 173);
+    font-weight: var(--primary-fontWeight);
+}
+.fare{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin: 0;
+    padding: 0;
+}
+.num12{
+    font-size: var(--primary-font);
+    color: rgb(0, 0, 0);
+    font-weight: var(--secondary-fontWeight);
+}
+.txt{
+    font-size: var(--third-font);
+    font-weight: var(--third-fontWeight);
+}
+.num1{
+    font-size: var(--third-font);
+    font-weight: var(--primary-fontWeight);
+    margin-right: 2.5%;
+}
+.total{
+    font-weight: var(--third-fontWeight);
+    font-size: var(--primary-font);
+    margin: 0;
+    color:var(--primary-color);
+}
+.total1{
+    font-weight: var( --third-fontWeight);
+    font-size: 24px;
+    margin: 0;
+    color:var(--primary-color);
+}
+.add .ant-input{
+    border: 1px solid lightgray;
+    font-size: var(--secondary-font);
+    font-weight: var(--secondary-fontWeight);
+}
+.add {
+    height: 2.2rem;
+    padding-top: 1%;
+    font-size: var(--secondary-font);
+    font-weight: var(--secondary-fontWeight);
+}
+.add .ant-select-selector{
+    font-size: var(--secondary-font);
+    font-weight: var(--secondary-fontWeight);
+}
+.add .ant-select-selection-item{
+    font-weight: var(--secondary-fontWeight);
+}
+.selectDrop {
+    padding-top: 2% !important;
+}
+.cancelatiobn-button {
+    min-width: 20%;
+    min-height: 2rem !important;
+}
+.cancle-information {
+    font-weight: bold;
+    font-size: var(--primary-font);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.cancle-charge {
+    margin-top: 0px;
+    font-weight: var(--primary-fontWeight);
+    font-size: var(--third-font);
+}
+.check .ant-card-body   {
+    font-size: var(--third-font);
+}
+.select{
+    flex: 1px;
+}
+.input-email-address {
+    font-size: var(--secondary-font);
+    font-weight: var(--secondary-fontWeight);
+}
+.input-mobile {
+    width: 57%;
+    font-size: var(--secondary-font);
+    font-weight:var(--primary-fontWeight) ;
+}
+.pin {
+    font-weight: bold;
+    font-size: var(--primary-font);
+    margin-bottom: 0;
+    margin-top: 0%;
+}
+.title {
+    font-size: var(--third-font);
+    font-weight: var(--secondary-fontWeight);
+}
+.gst {
+    margin: 0;
+    font-size: var(--third-font);
+    font-family: rubik;
+    font-weight: var(--third-fontWeight);
+    font-size: var(--third-font);
+    line-height: 14px;
+    color: #777;
+}
+.note {
+    background-color: lightblue;
+}
+.note p {
+    padding: 5px;
+}
+.button{
+    float: right;
+    min-width:  30%;
+    margin-top: 1%;
+}
+.meal-header-1 {
+    background-color: rgb(255, 255, 255);
+    padding: 0px 0.5rem;
+    border-radius: 3px;
+    padding-left: 0%;
+}
+.meal-flight {
+    padding-left: 2%;
+    padding-bottom: 0.2%;
+    margin-bottom: 3%;
+    box-shadow: rgb(236, 235, 235) 0px 0px 4px 0px;
+}
+.meal-header {
+    margin: 0;
+    color: rgb(34, 118, 227);
+    font-size: var(--primary-font);
+    font-weight: var(--primary-fontWeight);
+    padding-top: 1%;
+}
+.card-seat{
+    max-width: 100%;
+}
+.food-image{
+    width: 19%;
+}
+.flight-faresummery{
+    font-size: var(--primary-font);
+}
+.fixedButtonContainer{
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: aliceblue;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    right: 0px;
+    z-index: 122;
+}
+.modal-fare{
+    width: 50% !important;
+}
+.fare-summery-main{
+    padding: 1%;
+}
+.total-price{
+    font-size: var(--third-font);
+    font-weight: bold;
+}
+.price{
+    font-size: var(--primary-font);
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 1350px) {
+    .txt, .num1{
+        font-size: var(--label-font);
+    }
+    .num12{
+        font-size: var(--third-font)
+    }
+    .total, .flight-faresummery {
+        font-size: var(--secondary-font);
+    }
+    .total1{
+        font-size: var(--medium-icon-size);
+    }
+}
+@media only screen and (max-width: 600px) {
+    .num{
+        padding-left: 9%;
+    }
+    .wrapper-1{
+        width: 40%;
+    }
+    .food-image {
+        width: 35%;
+    }
+    .meal-amount{
+        font-size: var(--third-font) !important;
+        margin: 0;
+    }
+    .title {
+        font-size: var(--label-font);
+        margin: 0;
+    }
+    .add .ant-select-selector{
+        font-size: var(--third-font)
+    }
+    .price-1{
+        width: 183%;
+        padding-right: 40%;
+    }
+    .colored-p{
+        font-size: var(--label-font);
+    }
+    .colored-v{
+        margin: 0;
+        font-size: 24px;
+    }
+    .add .ant-input, .checkbox, .hide-city, .hide-time {
+        font-size: var(--third-font) !important;
+    }
+    .flight{
+        margin: 0;
+        font-size: var(--secondary-font);
+    }
+    .cancle-charge, .gst, .hide-edit, .hide-left {
+        font-size: var(--label-font) !important;
+    }
+    .cancle-information{
+        font-size: var(--secondary-font);
+        font-weight: bold;
+    }
+    .pin{
+        font-size: var(--third-font);
+        font-weight: bold;  
+    }
+    .pin-1{
+        font-size: var(--secondary-font) !important;
+    }
+    .pop-description tbody{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media only screen and (max-width: 992px){
+    .card{
+        width: 87%;
+    }
+    .input-email-address{
+        font-size: var(--third-font)
+    }
+    .card-fare{
+        width: 99% !important;
+    }
+    .blur {
+        filter: blur(4px); 
+        backdrop-filter: grayscale(20%);
+    }
+}
+@media only screen and (min-width: 992px){
+    .input-email-address{
+        width: 57%;
+    }
+}
+.summery{
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 0 lightgray;
+    padding: 4%;
+}
+.numm{
+    padding-left: 10%;
+    height: 100%; 
+    margin: auto;
+    text-align: center;
+    color: var(--primary-color);
+    border: none;
+    font-size: var(--primary-font);
+}
+.food{
+    display: flex;
+    gap: 5%;
+    padding-left: 4%;
+    align-items: center;
+}
+.meal-amount {
+    font-size: var(--secondary-font);
+    font-weight: var(--primary-fontWeight);
+}
+.wrapper-1 {
+    border: 1px solid lightgray;
+    width: 44%;
+    padding: 0 5px;
+    display: flex;
+    border-radius: 10px;
+}
+.price-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.meal-price {
+    font-size: var(--primary-font);
+    font-weight: var(--secondary-fontWeight);
+}
+.button-payment {
+    margin: 0;
+    margin-top: 2%;
+    width: 100%;
+}
+.container-with-scroll {
+    overflow-y: auto;
+    max-height: 22rem;
+}
+.details-collapse{
+    align-items: center;
+}
+.card2{
+    padding-top: 1%;
+}
+.base-fair{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+.middle-fair{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fare-adult{
+    padding-bottom: 1%;
+}
+
+/* -------------------------------- AddOns --------------------------- */
+
+.skipToPayment {
+    color: white;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    font-size: var(--third-font);
+    font-weight: var(--third-fontWeight);
+    border-radius: 3px;
+    padding: 0 3%;
+    border-color: var(--primary-color);
+}
+.skipToPayment:not(:disabled):not(.skipToPayment-disabled):hover {
+    color: rgb(255, 255, 255);
+    border-color: var(--primary-color);
+}
+.seatsTitle {
+    font-size: var(--third-font);
+    font-weight: var(--third-fontWeight);
+}
+.seatFCard {
+    padding: 0 2%;
+}
+.addOndFTabsStyle .ant-tabs-tab {
+    color: black !important;
+}
+.frontMainDiv {
+    scroll-behavior: smooth;
+    position: static;
+    overflow: hidden auto;
+    max-height: 580px;
+    background: linear-gradient(rgb(208, 232, 243) 0px, rgb(196, 228, 242) 58%, rgb(132, 184, 216) 99%);
+    width: 100%;
+    -webkit-box-flex: 0;
+    border-radius: 5px;
+    padding: 0 5%;
+}
+.curveFWrap {
+    width: 100%;
+    height: 13rem;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+}
+.curveFTop {
+    width: 120%;
+    height: 443%;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    left: -10%;
+    top: 1%;
+}
+.curveFLayerOne {
+    background-color: rgb(187, 221, 242);
+    top: 3%;
+    opacity: 0.3;
+}
+.curveFLayerTwo {
+    background-color: white;
+    top: 44%;
+    width: 149%;
+    left: -25%;
+}
+.curveFDivider {
+    width: 1%;
+    height: 44%;
+    background: white;
+    left: calc(50% - 6px);
+    position: absolute;
+    top: 1%;
+}
+.frontFPlane {
+    letter-spacing: 5px;
+    color: rgb(194, 194, 194);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: var(--third-font);
+}
+.frontFBelowDiv {
+    background-color: white;
+    width: 100%;
+}
+.seatFRow {
+    position: relative;
+    padding: 0.5% 6%;
+}
+.selectSpaceSeat {
+    width: 1rem;
+    height: 1rem;
+}
+.curveFWrapBack {
+    height: 10rem;
+}
+.curveFBottom {
+    bottom: 20%;
+    top: unset;
+    height: 280%;
+}
+.selectFSeat {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+.cursorAuto {
+    cursor: auto !important;
+}
+.notReservedSeat {
+    color: white;
+    background-color: rgb(194, 194, 194);
+    border-color: rgb(194, 194, 194) !important;
+}
+.selectFSeatDiv {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+.selectFSeatDiv.clickedOrange {
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+.selectFSeatDiv.clickedRed {
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+.selectFSeatRound {
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+.selectFSeatRound.clickedGreen {
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+.selectPerFSeat {
+    position: absolute;
+    width: 1.4rem;
+    top: calc(50% - 8px);
+    font-style: normal;
+    line-height: 15px;
+    text-align: center;
+}
+.filterFSeatByPrice {
+    opacity: 0.3;
+    cursor: auto;
+}
+.rightFCol {
+    padding-left: 5%;
+}
+.passengerFStyle {
+    font-size: var(--third-font);
+    font-weight: var(--secondary-fontWeight);
+    margin-left: 2%;
+}
+.seatByFPrice {
+    margin: 10% 0 2% 0;
+    line-height: normal;
+}
+.rowFSeatTitle {
+    font-size: var(--small-font);
+    font-weight: var(--secondary-fontWeight);
+    letter-spacing: 1px;
+}
+.seatFBox {
+    padding: 0 3%;
+    cursor: pointer;
+}
+.perSeatFBox {
+    margin: 3% 0;
+}
+.borderFOrange {
+    border-color: orange;
+}
+.borderFRed {
+    border-color: red;
+}
+
+/* ---------------------------------- Hide ------------------------------- */
+
+.hide-ticket {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.hide-edit {
+    color: rgb(22, 107, 211);
+    cursor: pointer;
+    margin: 0;
+    font-size: var(--third-font);
+    font-weight: var(--third-fontWeight);
+}
+.pin-1 {
+    font-weight: bold;
+    font-size: var(--primary-font);
+    padding-left: 1%;
+    margin: 0;
+}
+.inside-ticket-card {
+    width: 100%;
+    border-radius: 5px;
+    margin: 1.5% 0.5%;
+    box-shadow: 0 0 3px 0 lightgray;
+}
+.hide-lower {
+    padding-left: 2%;
+}
+.hide-first {
+    width: 151%;
+}
+.cancle-card {
+    padding: 2%;
+}
+.hide-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sign-down {
+    margin: 0;
+}
+.sign {
+    margin-right: 4%;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: rgb(229, 243, 255);
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.hide-left {
+    padding: 0.2%;
+    margin: 0;
+    background-color: rgb(229, 243, 255);
+    border-radius: 4px;
+    font-size: var(--third-font);
+    font-weight: var( --secondary-fontWeight);
+    color: rgb(34, 118, 227);
+}
+.hide-div {
+    display: flex;
+    gap: 10px;
+}
+.hide-city{
+    color: rgb(113, 113, 113);
+    font-size: var(--primary-font);
+}
+.hide-time{
+    font-size: var(--primary-font);
+    font-weight: var( --secondary-fontWeight);
+    color: black;
+}
+.time{
+    font-size: var(--third-font);
+    font-weight: var(--primary-fontWeight);
+    color: black;
+}
+
+/* ----------------------------------------pop------------------ */
+.pop-card{
+    background-color: rgb(247, 247, 247);
+    padding: 2%;
+    border-radius: 16px;
+    margin: 1%;
+}
+.pop-btn{
+    width: 48%;
+}
+.popup-button{
+    padding-top: 2%;
+}   
+.pop-main{
+    max-height: 280px;
+    overflow-y: auto;
+}
+.pop-description .ant-descriptions .ant-descriptions-item-container{
+    display: grid;
+}
+.confirmModal .ant-modal-close{
+    position: absolute;
+    top: 6%;
+    left: 92%;
+}
+
+/* ------------------------- Media Query ---------------------- */
+
+@media only screen and (min-width: 1200px) and (max-width: 1350px) {
+    .seatFRow {
+        padding-top: 0.7%;
+        margin: 0 -7%;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .seatFRow {
+        padding: 0.5% 15%;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .seatFRow {
+        padding: 0.5% 8%;
+    }
+    .selectFSeat, .selectFSeatDiv {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+    .selectPerFSeat {
+        width: 1.3rem;
+    }
+    .rightFCol {
+        padding-left: 3%;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 620px) {
+    .seatFRow {
+        padding: 0.7% 0;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 520px) {
+    .seatFRow {
+        padding-top: 0.9%;
+    }
+    .selectFSeat, .selectFSeatDiv {
+        width: 1.3rem;
+        height: 1.3rem;
+        font-size: var(--optimal-font);
+    }
+    .selectPerFSeat {
+        width: 1.2rem;
+        top: calc(50% - 7px);
+    }
+}

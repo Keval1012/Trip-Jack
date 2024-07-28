@@ -1,0 +1,93 @@
+.trainBackgroud {
+    height: 18rem !important;
+}
+
+.trainTatkalRadio .ant-radio-wrapper {
+    font-size: var(--third-font) !important;
+    /* padding: 0.5% 0.5%; */
+    padding: 1% 2%;
+    justify-content: center;
+    min-width: 7rem;
+}
+.trainTatkalRadio .ant-radio-wrapper-checked {
+    background-color: var(--shadow-color);
+    /* padding: 0.5% 2%; */
+    padding: 1% 1%;
+    color: var(--primary-color);
+    border-radius: 3px;
+    /* font-weight: bold; */
+}
+
+.openTatkalOnRadio {
+    position: relative;
+    font-size: var(--third-font);
+    top: 0.5em;
+    left: 8px;
+    background-color: lightgreen;
+    width: fit-content;
+    padding: 0 1%;
+    border-radius: 8px;
+}
+
+
+.addFlightForm .trainStatusSelect .ant-select-selector .ant-select-selection-search-input {
+    height: 50px !important;
+    padding: 0 8% !important;
+    padding-bottom: 0.8rem !important;
+    margin-top: 2.5% !important;
+}
+.trainStatusPopupSelect .ant-select-item-option {
+    padding: 0 !important;
+}
+.trainStatusPopupSelect .ant-select-item-option-content {
+    font-size: var(--primary-color) !important;
+    padding: 3% 2% !important;
+    font-weight: 400 !important;
+    border-bottom: 1px solid lightgray;
+}
+.trainStatusSelect .ant-select-selection-item {
+    /* font-size: 20px !important; */
+    font-size: var(--primary-color) !important;
+    font-weight: 700 !important;
+}
+.trainStatusSelect .ant-select-selection-placeholder {
+    /* font-size: 20px !important; */
+    font-size: var(--primary-color) !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .trainTatkalRadio .ant-radio-wrapper {
+        font-size: var(--label-font) !important;
+        padding: 0.5% 1%;
+        min-width: 6rem;
+    }
+    .trainTatkalRadio .ant-radio-wrapper-checked {
+        /* padding: 0.5% 2%; */
+        padding: 1% 0.5%;
+    }
+    .addFlightForm .trainStatusCol .ant-select-selector {
+        padding: 0 6.5% !important;
+    }
+    .flightInput .trainStatusCol .ant-form-item-control > div:nth-child(2) {
+        top: 2.4rem;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .trainStatusCol .ant-select-selector .ant-select-selection-search-input {
+        /* font-size: var(--secondary-font) !important; */
+        /* height: 25px !important; */
+        padding: 0 4% !important;
+        margin-top: 3.5% !important;
+    }
+    
+    .trainStatusCol .addFlightForm .ant-picker {
+        /* font-size: var(--label-font) !important; */
+        padding: 0 7% !important;
+    }
+    
+    .trainStatusCol .ant-input-lg {
+        line-height: 2.5 !important;
+        font-size: var(--label-font) !important;
+    }
+}
